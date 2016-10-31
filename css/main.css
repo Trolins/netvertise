@@ -22,16 +22,15 @@ table {
 	width: 70%;
 	margin: 0 auto;
 }
-table tr td,
-table tr th {
+table tr td {
 	width: 10%;
 	text-align: center;
 	padding: 5px 0;
 	border: 1px solid #000;
 }
-table th {
-	background-color: #777
+table tr:first-child {
+	background-color: #888;
 }
 table tr:nth-child(even) {
-	background-color: #aaa;
+	background-color: #ccc;
 }
