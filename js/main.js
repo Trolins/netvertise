@@ -1,8 +1,8 @@
 'use strict';
 
 requirejs.config({
-	urlArgs: "vol.1.0",
-	waitSeconds: 200,
+	urlArgs: "vol.1.11",
+	waitSeconds: 2000,
     baseUrl: 'js/',
 	paths: {
 		jquery: 'vendors/jquery-3.0.0.min',
